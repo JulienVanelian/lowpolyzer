@@ -7,8 +7,6 @@ class VIEW3D_lowpolyze(Operator):
     bl_label = "Lowpolyze"
     bl_description = "Apply a low poly style to objects"
 
-    total: bpy.props.IntProperty(name="Resolution", default=5, min=1, max=10)
-
     def execute(self, context):
         c = bpy.context
         active_obj = c.active_object
