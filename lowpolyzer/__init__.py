@@ -5,9 +5,9 @@ bl_info = {
     "name": "Lowpolyzer",
     "author": "Julien Vanélian",
     "version": (0, 2, 0),
-    "blender": (2, 90, 0),
+    "blender": (2, 91, 0),
     "location": "View3D > Object > Transform",
-    "description": "Apply a low poly style to objects",
+    "description": "Apply a low poly style to meshes",
     "category": "Object",
 }
 
